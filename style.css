@@ -30,6 +30,7 @@ button {
     display: flex;
     flex-direction: column;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .panel {
@@ -38,4 +39,29 @@ button {
     padding: 10px;
     display: flex;
     flex-direction: column;
+    row-gap: 20px;
+}
+
+.light{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border: medium solid #000;
+    border-radius: 50%;
+}
+
+.red-light{
+    background-color: #ff0000;
+}
+
+.yellow-light{
+    background-color: #ffff00;
+}
+
+.green-light{
+    background-color: #00ff00;
+}
+
+.light-off{
+    background-color: #3f3f3f;
 }
